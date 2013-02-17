@@ -80,6 +80,8 @@ float: left;
 margin-right: 1.5em;
 margin-bottom: 1.5em;
 margin-top: 0.5em;
+height: 200px;
+width: 140px;
 }
 
 a
@@ -231,12 +233,28 @@ padding-bottom: 0.1em;
 margin-bottom: 0.8em;
 }
 
+
+
 #main_inner h4
 {
 font-size: 1.2em;
 padding-bottom: 0.175em;
-margin-bottom: 1.4em;
+/*margin-bottom: 1.4em;*/
 margin-top: 0.95em;
+}
+
+#primaryContent_2columns li {
+  margin-left: 20px;
+}
+
+#secondaryContent_2columns li
+{
+  line-height: 1.2em;
+}
+
+#secondaryContent_2columns span
+{
+  font-size: 0.8em;
 }
 
 #main_inner .post
@@ -263,18 +281,32 @@ font-size: 0.8em;
 {
 background-position: 0em 0.2em;
 background-repeat: no-repeat;
+background-size: 16px 16px;
 display: inline;
 padding-left: 18px;
+padding-bottom: 20px;
 }
 
 #main_inner .post ul.post_info li.date
 {
-background-image: url('images/n5.gif');
+background-image: url('images/pen.png');
 }
 
 #main_inner .post ul.post_info li.comments
 {
 background-image: url('images/n6.gif');
+margin-left: 1.1em;
+}
+
+#main_inner .post ul.post_info li.github
+{
+background-image: url('images/icon-github.png');
+margin-left: 1.1em;
+}
+
+#main_inner .post ul.post_info li.projecthome
+{
+background-image: url('images/home.png');
 margin-left: 1.1em;
 }
 
