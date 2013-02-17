@@ -3,7 +3,7 @@
   <li class="date">Posted by RafiK on <?php echo $datestr; ?></li>
 </ul>         
 <p>
-  PD Dr. Prasenjit Saha will be talking about Light and Gravity in his inaugural lecture. He will also present a quick preview of my Master thesis.<br/>
+  PD Dr. Prasenjit Saha will be talking about Light and Gravity in his inaugural lecture. He will also present a quick preview of the lens modelling tool (working title)<br/>
   For those who can't be there: I'll stream the talk live in google+. I will post the link to the hangout here, around 16.30 CET. Feel free to add me in Google+, I'll send you an invite as soon as the stream is ready.
 </p>
 <p>

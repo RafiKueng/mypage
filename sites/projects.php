@@ -5,7 +5,7 @@
   Here's a list of some projects I am / was working on.
 </p>
 <p>
-  Checkout <a href="https://github.com/RafiKueng?tab=repositories">my github page</a> for the lastest code.
+  Checkout <a href="https://github.com/RafiKueng?tab=repositories">my github page</a> for the latest code.
 </p>
 
 <br class="clear" />

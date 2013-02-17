@@ -70,7 +70,7 @@ function listdir_by_date($path){
     if ($_GET["p"]==$name) {
       $str = $str . 'class="active"';
     }
-    $str = $str . '>/' . $name . '</a></li>\n';
+    $str = $str . '>/' . $name . '</a></li>';
     echo $str;
   }
 ?>
