@@ -1,3 +1,9 @@
+<?php
+  $path = './sites/projects/';
+?>
+
+
+<?php if (!isset($_GET["n"]) || empty($_GET["n"])) { ?>
 <h3>/projects</h3>
 <img src="images/code.png" class="floatTL" alt="Something scenic" />
 
@@ -11,7 +17,7 @@
 <br class="clear" />
 
 <?php
-  $path = './sites/projects/';
+  
   $dir = listdir_by_date($path);
   
   foreach($dir as $time => $file){
@@ -26,4 +32,14 @@
     include $filepath;    
     echo "</div>";
   }
+
+} else {
+  $pname = $_GET["n"];
+  $img = "sites/projects/".$pname.".png";
+  echo "<h3>/projects/{$pname}/</h3>\n";
+  if (file_exists($img)) {
+    echo "<img src='{$img}' class='floatTL' alt='Something scenic' />\n";
+  }
+  include $path . $pname . ".php";
+}
 ?>
