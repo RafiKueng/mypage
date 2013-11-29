@@ -57,8 +57,9 @@ function listdir_by_date($path){
 <?php
   $pages = array( "home"=>      "index.php?p=home",
                   "projects"=>  "index.php?p=projects",
+                  "docs"=>      "index.php?p=docs",
                   "about_me"=>  "index.php?p=about_me",
-                  "github"=>   "https://github.com/RafiKueng?tab=repositories");
+                  "github"=>    "https://github.com/RafiKueng?tab=repositories");
                   //"contact"=>   "index.php?p=contact");
                   
   if (!isset($_GET["p"]) || empty($_GET["p"])) {
